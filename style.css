@@ -130,9 +130,7 @@
     font-size: 30px;
     padding: 10px;
 
-
 }
-
 
 .container_recipe_title h2 {
 
@@ -152,13 +150,12 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
-    padding: 0 20px;
+
 }
 
 .recipe-item {
     display: block;
     width: 200px;
-    /* Fixed width for square images */
     text-decoration: none;
     color: black;
     text-align: center;
@@ -187,25 +184,11 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+
 .brownies h1 {
     width: 20px;
     background-color: red;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .title_contact {
     background-color: #a9755d;
