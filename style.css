@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-
+    font-family: "Libre Baskerville", serif;
     box-sizing: border-box;
 }
 
@@ -135,7 +137,7 @@
 .container_recipe_title h2 {
 
     font-size: 20px;
-    line-height: 1.9;
+    line-height: 1.7;
     text-align: center;
     margin-top: 5%;
 }
@@ -150,7 +152,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
-
+    margin-top: 40px;
 }
 
 .recipe-item {
@@ -168,13 +170,12 @@
 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
 .recipe-item p {
-    background-color: red;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -187,7 +188,6 @@
 
 .brownies h1 {
     width: 20px;
-    background-color: red;
 }
 
 .title_contact {
